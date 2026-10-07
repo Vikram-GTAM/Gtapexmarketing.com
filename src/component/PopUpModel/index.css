@@ -27,7 +27,7 @@
 .popup-container {
   width: 90%;
   max-width: 900px;
-  max-height: 88vh;
+  height: min(78vh, 620px);
 
   display: flex;
 
@@ -47,13 +47,18 @@
 ========================================================= */
 
 .popup-image-section {
-  width: 50%;
-  min-height: 0;
+  position: relative;
+  flex: 0 0 50%;
+  height: 100%;
+  overflow: hidden;
 
   animation: slideLeft 0.8s ease forwards;
 }
 
 .popup-image-section img {
+  position: absolute;
+  inset: 0;
+
   width: 100%;
   height: 100%;
 
@@ -69,8 +74,8 @@
 
 .popup-form-section {
   width: 50%;
+  height: 100%;
   min-height: 0;
-  max-height: 88vh;
 
   background: #111111;
 
@@ -470,6 +475,7 @@
     width: 100%;
     max-width: 540px;
 
+    height: auto;
     min-height: auto;
     max-height: 88vh;
 
@@ -487,6 +493,7 @@
 
   .popup-form-section {
     width: 100%;
+    height: auto;
     max-height: 88vh;
 
     padding: 30px 26px;
