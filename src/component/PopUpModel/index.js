@@ -22,6 +22,14 @@ const PopupModal = () => {
     <div className="popup-overlay">
 
       <div className="popup-container">
+        <button
+          className="close-btn"
+          type="button"
+          onClick={() => setShowPopup(false)}
+          aria-label="Close popup"
+        >
+          <IoClose />
+        </button>
 
         {/* LEFT IMAGE */}
         <div className="popup-image-section">
@@ -35,15 +43,6 @@ const PopupModal = () => {
 
         {/* RIGHT SECTION */}
         <div className="popup-form-section">
-
-          <button
-            className="close-btn"
-            type="button"
-            onClick={() => setShowPopup(false)}
-          >
-            <IoClose />
-          </button>
-
           <h2 className="popup-title">
             {submitted
               ? "SUBMITTED SUCCESSFULLY"

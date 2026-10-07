@@ -25,9 +25,9 @@
 ========================================================= */
 
 .popup-container {
-  width: 85%;
-  max-width: 1025px;
-  min-height: 540px;
+  width: 90%;
+  max-width: 900px;
+  max-height: 88vh;
 
   display: flex;
 
@@ -48,7 +48,7 @@
 
 .popup-image-section {
   width: 50%;
-  min-height: 540px;
+  min-height: 0;
 
   animation: slideLeft 0.8s ease forwards;
 }
@@ -69,10 +69,12 @@
 
 .popup-form-section {
   width: 50%;
+  min-height: 0;
+  max-height: 88vh;
 
   background: #111111;
 
-  padding: 34px;
+  padding: 28px;
 
   box-sizing: border-box;
 
@@ -123,8 +125,8 @@
 .close-btn {
   position: absolute;
 
-  top: 18px;
-  right: 18px;
+  top: 14px;
+  right: 14px;
 
   width: 38px;
   height: 38px;
@@ -132,7 +134,7 @@
   border: none;
   border-radius: 50%;
 
-  background: transparent;
+  background: rgba(0, 0, 0, 0.55);
 
   color: #ffffff;
 
@@ -469,13 +471,13 @@
     max-width: 540px;
 
     min-height: auto;
-    max-height: 94vh;
+    max-height: 88vh;
 
     flex-direction: column;
 
     border-radius: 22px;
 
-    overflow-y: auto;
+    overflow: hidden;
   }
 
   /* Hide image on tablet/mobile */
@@ -485,6 +487,7 @@
 
   .popup-form-section {
     width: 100%;
+    max-height: 88vh;
 
     padding: 30px 26px;
 
@@ -566,7 +569,7 @@
     width: 100%;
     max-width: 100%;
 
-    max-height: 96vh;
+    max-height: 88vh;
 
     border-radius: 18px;
   }
@@ -590,8 +593,8 @@
   }
 
   .close-btn {
-    top: 13px;
-    right: 13px;
+    top: 12px;
+    right: 12px;
 
     width: 32px;
     height: 32px;
