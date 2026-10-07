@@ -35,7 +35,7 @@ const PopupModal = () => {
         <div className="popup-image-section">
 
           <img
-            src="https://res.cloudinary.com/doyaebals/image/upload/v1778328086/WhatsApp_Image_2026-05-09_at_5.29.05_PM_gdkued.jpg"
+            src="/popup-marketing.jpg"
             alt="GT Apex Marketing"
           />
 
