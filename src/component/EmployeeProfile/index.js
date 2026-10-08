@@ -184,7 +184,7 @@ const employeesData = {
     role: 'Sales Team Lead',
     email: 'eswarbadana996@gmail.com',
     phone: '+91 9959685793',
-    image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80'
+    image: '/employees/employee-0014.png'
   }
 }
 const EmployeeProfile = () => {
