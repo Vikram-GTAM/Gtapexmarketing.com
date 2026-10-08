@@ -19,7 +19,8 @@ const employeesList = [
   { id: '0010', name: 'Vikram Pagadala', role: 'DOP & Technology Manager', email: 'Vikram.gtma@gmail.com', image: '/employees/010.webp' },
   { id: '0011', name: 'Prem Boppisetty', role: 'Graphic & UI/UX Designer', email: 'Premvfx2@gmail.com', image: '/employees/0011.webp' },
   { id: '0012', name: 'Banavath Prakash', role: 'Video Editor', email: 'prakashchavan.gtam@gmail.com', image: '/employees/0012.webp' },
-  { id: '0013', name: 'Teja', role: 'UI/UX Designer & Graphic Designer', email: 'teja.gtam@gmail.com', image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80' }
+  { id: '0013', name: 'Teja', role: 'UI/UX Designer & Graphic Designer', email: 'teja.gtam@gmail.com', image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80' },
+  { id: '0014', name: 'Eswara Rao Badana', role: 'Sales Team Lead', email: 'eswarbadana996@gmail.com', image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80' }
 ]
 
 const EmployeeDirectory = () => {

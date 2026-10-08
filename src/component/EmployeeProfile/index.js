@@ -178,6 +178,13 @@ const employeesData = {
       'Graphic Design: Create posters, banners, brochures, social media creatives, and logos.',
       'Video Editing & AI Generation: Edit promotional videos, reels, and create AI-generated video content.'
     ]
+  },
+  '0014': {
+    name: 'Eswara Rao Badana',
+    role: 'Sales Team Lead',
+    email: 'eswarbadana996@gmail.com',
+    phone: '+91 9959685793',
+    image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80'
   }
 }
 const EmployeeProfile = () => {
