@@ -134,7 +134,7 @@ const employeesData = {
     role: 'DOP & Technology Manager',
     email: 'Vikram.gtma@gmail.com',
     phone: '+91 94933 59209',
-    image: '/employees/0010.webp',
+    image: '/employees/vikram-pagadala-profile.png',
     responsibilities: [
       'Workflow Optimization: Eliminating bottlenecks and building SOPs to maximize productivity.',
       'QA & Compliance: Ensuring all products, services, and operations meet industry standards.',

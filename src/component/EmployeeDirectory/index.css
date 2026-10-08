@@ -139,6 +139,8 @@
 .card-role {
   display: block;
   font-size: 13px;
+  line-height: 1.4;
+  min-height: 2.8em;
   color: #00ff5b;
   margin-bottom: 12px;
 }
